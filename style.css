@@ -5,27 +5,32 @@ body{
 
 #all{
     text-align: center;
-    font-family: cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 #welcome1{
-    font-size: 250%;
+    font-size: 300%;
 }
 
 #message1{
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #caja{
-    font-family: cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 #caja2{
-    font-family: cursive;
+    font-family: 'Roboto Slab', serif;
     width: 30%;
     height: 30px;
 }
 
 .buttons{
-    font-family: cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+#RespuestaCodificada{
+    text-align: center;
+    font-size: 350%;
 }
