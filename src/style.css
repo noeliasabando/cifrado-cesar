@@ -1,6 +1,6 @@
 body{
     background-image: url(https://static8.depositphotos.com/1472772/978/i/950/depositphotos_9787573-stock-photo-top-secret-folder-icon-over.jpg);
-    background-size: 88%;    
+    background-size: 88%;  
 }
 
 #all{
@@ -28,6 +28,9 @@ body{
 
 .buttons{
     font-family: 'Roboto Slab', serif;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 #RespuestaCodificada{
