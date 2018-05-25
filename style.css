@@ -1,1 +1,31 @@
-/* Acá va tu código */
+body{
+    background-image: url(https://static8.depositphotos.com/1472772/978/i/950/depositphotos_9787573-stock-photo-top-secret-folder-icon-over.jpg);
+    background-size: 88%;    
+}
+
+#all{
+    text-align: center;
+    font-family: cursive;
+}
+
+#welcome1{
+    font-size: 250%;
+}
+
+#message1{
+    font-size: 200%;
+}
+
+#caja{
+    font-family: cursive;
+}
+
+#caja2{
+    font-family: cursive;
+    width: 30%;
+    height: 30px;
+}
+
+.buttons{
+    font-family: cursive;
+}
