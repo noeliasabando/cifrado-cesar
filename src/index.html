@@ -6,8 +6,26 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="all">
+    <div id="Welcome">
+      <h1 id="welcome1">¡Bienvenid@s a la página de mensajes secretos!</h1>
+      <input id="caja" type="text" name="valorN" placeholder="Elige el valor fijo">
+    </div>
 
-  <div id="root"></div>
+    <div id="yourMessage">
+      <p id="message1">Escribe tu mensaje aquí</p>
+      <input id="caja2" type="text" name="mensaje" placeholder="Escribe tu mensaje"> <br><br>
+    </div>
+
+    <div>
+      <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
+      <button class="buttons" onclick="decode()" name= "boton">Decodificar</button>
+    </div>
+  </div>
+
+  <div >
+    <p id="RespuestaCodificada"></p>
+  </div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
