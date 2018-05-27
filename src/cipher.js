@@ -8,7 +8,13 @@ window.cipher = {
     }
     return codificado;
   },
-  decode: () => {
-    /* Acá va tu código */
+  decode: (offset, message) => {
+    let decodificado= "";
+    for(let i=0; i<message.length; i++){
+      let code= message.charCodeAt(i);
+      code=(code-32- offset)%97 +32;
+      decodificado+= String.fromCharCode(code);
+    }
+    return decodificado;
   }
 }
