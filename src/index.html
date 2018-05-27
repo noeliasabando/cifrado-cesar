@@ -2,17 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Cifrado César</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="all">
-    <div id="Welcome">
+  
+    <div>
       <h1 id="welcome1">¡Bienvenid@s a la página de mensajes secretos!</h1>
-      <input id="caja" type="text" name="valorN" placeholder="Elige el valor fijo">
     </div>
 
-    <div id="yourMessage">
+    <div>
+      <input id="caja" type="text" name="valorN" placeholder="Elige el valor fijo">
+    </div>  
+
+    <div>
       <p id="message1">Escribe tu mensaje aquí</p>
       <input id="caja2" type="text" name="mensaje" placeholder="Escribe tu mensaje"> <br><br>
     </div>
@@ -21,8 +24,7 @@
       <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
       <button class="buttons" onclick="decodeButton()" name= "boton">Decodificar</button>
     </div>
-  </div>
-
+  
   <div>
     <p id="RespuestaCodificada"></p>
   </div>

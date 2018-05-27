@@ -1,29 +1,38 @@
 body{
-    background-image: url(https://static8.depositphotos.com/1472772/978/i/950/depositphotos_9787573-stock-photo-top-secret-folder-icon-over.jpg);
+    background-color: plum;
     background-size: 88%;  
 }
 
-#all{
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
-
 #welcome1{
+    background-color: purple;
     font-size: 300%;
-}
-
-#message1{
-    font-size: 250%;
+    text-align: center;
+    margin: -10px;
+    padding: 20px;
+    
 }
 
 #caja{
     font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: 80px;
+    left: 590px ;
+}
+
+#message1{
+    font-size: 250%;
+    text-align: center;
+    position: relative;
+    top: 60px;
 }
 
 #caja2{
     font-family: 'Roboto Slab', serif;
     width: 30%;
     height: 30px;
+    position: relative;
+    top: 30px;
+    left: 480px;
 }
 
 .buttons{
@@ -31,9 +40,18 @@ body{
     border-radius: 15px;
     font-size: 18px;
     margin-right: 10px;
+    color: rebeccapurple;
+    position: relative;
+    top: 30px;
+    left: 580px;
 }
 
 #RespuestaCodificada{
     text-align: center;
     font-size: 350%;
+}
+
+#RespuestaDecodificada{
+    text-align: center;
+    font-size: 350%; 
 }
