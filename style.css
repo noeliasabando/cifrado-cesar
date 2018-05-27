@@ -13,10 +13,12 @@ body{
 }
 
 #caja{
+    font-size: 100%;
     font-family: 'Roboto Slab', serif;
     position: relative;
     top: 80px;
-    left: 590px ;
+    left: 580px;
+    border-radius: 10px;
 }
 
 #message1{
@@ -27,31 +29,41 @@ body{
 }
 
 #caja2{
+    font-size: 100%;
     font-family: 'Roboto Slab', serif;
     width: 30%;
-    height: 30px;
+    height: 80px;
     position: relative;
     top: 30px;
-    left: 480px;
+    left: 475px;
+    border-radius: 10px;
 }
 
 .buttons{
     font-family: 'Roboto Slab', serif;
-    border-radius: 15px;
-    font-size: 18px;
+    border-radius: 10px;
+    font-size: 120%;
     margin-right: 10px;
     color: rebeccapurple;
     position: relative;
     top: 30px;
-    left: 580px;
+    left: 570px;
 }
 
 #RespuestaCodificada{
+    position: relative;
+    left: 300px;
     text-align: center;
-    font-size: 350%;
+    font-size: 200%;
+    width: 60%;
+    word-wrap: break-word;
 }
 
 #RespuestaDecodificada{
+    position: relative;
+    left: 300px;
     text-align: center;
-    font-size: 350%; 
+    font-size: 200%; 
+    width: 60%;
+    word-wrap: break-word;
 }
