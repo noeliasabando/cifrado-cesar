@@ -3,35 +3,36 @@
 <head>
   <meta charset="utf-8">
   <title>Cifrado César</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-    <div>
-      <h1 id="welcome1">¡Bienvenid@s a la página de mensajes secretos!</h1>
-    </div>
+  <div>
+    <h1 id="welcome1">¡Bienvenid@s a la página de mensajes secretos!</h1>
+  </div>
 
-    <div id="CifradoCesar">
-        <p>La idea de esta página, es que puedas enviar mensajes secretos, mediante la utilización 
-          del conocido método <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">Cifrado César</a>, en el cual, las letras de un texto original, son
-           reemplazadas por otras que se encuentran un número de posiciones más adelante, 
-           según el número que tú elijas.
-        </p>
-    </div>
+  <div id="CifradoCesar">
+    <p>La idea de esta página, es que puedas enviar mensajes secretos, mediante la utilización 
+      del conocido método <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">Cifrado César</a>, en el cual, las letras de un texto original, son
+        reemplazadas por otras que se encuentran un número de posiciones más adelante, 
+        según el número que tú elijas.
+    </p>
+  </div>
     
-    <div>
-      <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
-    </div>  
+  <div>
+    <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
+  </div>  
 
-    <div>
-      <p id="message1">Escribe tu mensaje aquí</p>
-      <textarea id="caja2" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
-    </div>
+  <div>
+    <p id="message1">Escribe tu mensaje aquí</p>
+    <textarea id="caja2" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+  </div>
 
-   <div>
+  <div>
       <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
       <button class="buttons" onclick="decodeButton()" name= "boton">Decodificar</button>
-    </div>
+  </div>
   
   <div>
     <p id="RespuestaCodificada"></p>
@@ -40,7 +41,10 @@
   <div>
     <p id="RespuestaDecodificada"></p>
   </div>
-
+      
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-whatsapp"></i>
+  
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
