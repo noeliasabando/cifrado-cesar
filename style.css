@@ -83,10 +83,12 @@ body{
 .fa-facebook{
     font-size: 50px;
     color: blue;
+    background-color: white;
 }
 
 .fa-whatsapp{
     font-size: 50px;
     color: green;
     margin-left: 10px;
+    background-color: white;
 }
