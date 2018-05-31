@@ -1,52 +1,64 @@
 body{
-    background-color: rgb(209, 98, 209);
+    background-color:#c2185b;
     background-size: 88%;  
 }
 
 #welcome1{
-    background-color: plum;
+    background-color:#c94f7c;
+    width: 95%;
     font-size: 300%;
     text-align: center;  
     border-radius: 10px;  
-    padding: 25px;   
+    padding: 25px;    
 }
 
 #CifradoCesar{
     font-family: 'Slabo 27px', serif;
     font-size: 130%;
     text-align: center;
-    background-color: plum;
-    border: 1px solid plum;
+    background-color: #c94f7c;
+    border: 1px solid #c94f7c;
     border-radius: 10px;
     position: relative;
-    bottom: 50px;
-    width: 100%;
-    height: 110px;        
+    top: 30px;
+    width: 25%;
+    height: 230px;        
+}
+
+#Formulario{
+    background-color: #c94f7c;
+    border: 1px solid #c94f7c;
+    border-radius:10px;
+    width: 40%;
+    position: relative;
+    left: 400px;
+    bottom: 220px;   
+
 }
 
 #caja{
     font-size: 100%;
     font-family: 'Slabo 27px', serif;
     position: relative;
-    left: 580px;
+    left: 180px;
     border-radius: 10px;
+    top: 25px;
 }
 
 #message1{
     font-size: 250%;
     text-align: center;
     position: relative;
-    bottom: 30px;
 }
 
 #caja2{
     font-size: 100%;
     font-family: 'Slabo 27px', serif;
-    width: 30%;
-    height: 80px;
+    width: 70%;
+    height: 90px;
     position: relative;
-    bottom: 70px;
-    left: 475px;
+    bottom: 20px;
+    left: 80px;
     border-radius: 10px;
 }
 
@@ -55,19 +67,19 @@ body{
     border-radius: 10px;
     font-size: 120%;
     margin-right: 10px;
-    position: relative;
-    bottom: 50px;
-    left: 580px;
+    position:relative;
+    bottom: 10px;
+    left: 180px;
 }
 
 #RespuestaCodificada{
-    position: relative;
+    position:relative;
     left: 300px;
     text-align: center;
     font-size: 200%;
     width: 60%;
     word-wrap: break-word;
-    bottom: 80px;
+    bottom: 240px;
 }
 
 #RespuestaDecodificada{
@@ -77,18 +89,16 @@ body{
     font-size: 200%; 
     width: 60%;
     word-wrap: break-word;
-    bottom: 90px;
+    bottom: 230px;    
 }
 
 .fa-facebook{
     font-size: 50px;
     color: blue;
-    background-color: white;
 }
 
 .fa-whatsapp{
     font-size: 50px;
     color: green;
-    margin-left: 10px;
-    background-color: white;
+    margin-left: 10px;   
 }

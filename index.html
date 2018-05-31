@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cifrado César</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
@@ -19,29 +20,32 @@
         según el número que tú elijas.
     </p>
   </div>
-    
-  <div>
-    <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
+
+  <div id="Formulario">  
+    <div>
+      <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
+    </div>  
+
+    <div>
+      <p id="message1">Escribe tu mensaje aquí</p>
+      <textarea id="caja2" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+    </div>
+
+    <div>
+        <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
+        <button class="buttons" onclick="decodeButton()" name= "boton">Decodificar</button>
+    </div>
   </div>  
 
-  <div>
-    <p id="message1">Escribe tu mensaje aquí</p>
-    <textarea id="caja2" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
-  </div>
+    <div>
+      <p id="RespuestaCodificada"></p>
+    </div>
 
-  <div>
-      <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
-      <button class="buttons" onclick="decodeButton()" name= "boton">Decodificar</button>
-  </div>
+    <div>
+      <p id="RespuestaDecodificada"></p>
+    </div>
   
-  <div>
-    <p id="RespuestaCodificada"></p>
-  </div>
 
-  <div>
-    <p id="RespuestaDecodificada"></p>
-  </div>
-      
   <i class="fab fa-facebook"></i>
   <i class="fab fa-whatsapp"></i>
   
