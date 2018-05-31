@@ -1,6 +1,5 @@
 body{
     background-color:#c2185b;
-    background-size: 88%;  
 }
 
 #welcome1{
@@ -33,7 +32,6 @@ body{
     position: relative;
     left: 400px;
     bottom: 220px;   
-
 }
 
 #caja{
@@ -54,11 +52,13 @@ body{
 #caja2{
     font-size: 100%;
     font-family: 'Slabo 27px', serif;
-    width: 70%;
-    height: 90px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 100px;
     position: relative;
     bottom: 20px;
-    left: 80px;
+    left: 70px;
     border-radius: 10px;
 }
 
@@ -69,7 +69,7 @@ body{
     margin-right: 10px;
     position:relative;
     bottom: 10px;
-    left: 180px;
+    left: 170px;
 }
 
 #RespuestaCodificada{
@@ -89,16 +89,18 @@ body{
     font-size: 200%; 
     width: 60%;
     word-wrap: break-word;
-    bottom: 230px;    
+    bottom: 250px;    
 }
+
 
 .fa-facebook{
     font-size: 50px;
-    color: blue;
+    color: blue;    
 }
 
 .fa-whatsapp{
     font-size: 50px;
     color: green;
-    margin-left: 10px;   
+    margin-left: 10px;
 }
+
