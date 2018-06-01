@@ -325,6 +325,10 @@ El diseño está pensado para que sea amigable y fácil de utilizar y entender p
 
 La aplicación cuenta con una caja para ingresar el número de corrimientos (`offset`), otra para ingresar el mensaje y 2 botones, uno de cifrado y otro de decifrado, el mensaje nuevo se imprime bajo los botones.
 
+## Enlace a Trello
+
+(https://trello.com/b/GbEGFrNJ/cifrado-cesar)
+
 
 
 
