@@ -323,7 +323,7 @@ Esta aplicación fue realizada con la utilización del lenguaje de programación
 
 El diseño está pensado para que sea amigable y fácil de utilizar y entender para el usuario, es por esto que se evitan extensos textos de explicación y se decide utilizar la funcionalidad de `referencia` en el caso del cifrado César y la de `tooltip` en la explicación del `offset`.
 
-La aplicación cuenta con una caja para ingresar el número de corrimientos (`offset`), otra para ingresar el mensaje y 2 botones, uno de cifrado y otro de decifrado, el mensaje nuevo se imprime bajo los botones.
+La aplicación cuenta con una caja para ingresar el número de corrimientos (`offset`), otra para ingresar el mensaje y 2 botones, uno de cifrado y otro de descifrado, el mensaje nuevo se imprime bajo los botones.
 
 ## Enlace a Trello
 
