@@ -1,122 +1,67 @@
-body{
-    background-color:#c2185b;
-    width: 100%;
+ #imgFondo{
+  background-color: rgba(172, 202, 38, 0.5);
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;  
 }
 
-#welcome1{
-    background-color:#c94f7c;
-    width: 95%;
-    font-size: 300%;
-    text-align: center;  
-    border-radius: 10px;  
-    padding: 25px;    
+ #titulo{
+		color: rgb(151, 43, 43);  
+		margin-top: 30px;
+         
 }
 
-#CifradoCesar{
-    font-family: 'Slabo 27px', serif;
-    font-size: 130%;
-    text-align: center;
-    background-color: #c94f7c;
-    border: 1px solid #c94f7c;
-    border-radius: 10px;
-    position: relative;
-    bottom: 60px;
-    width: 25%;
-    height: 230px;        
-}
-
-#Formulario{
-    background-color: #c94f7c;
-    border: 1px solid #c94f7c;
-    border-radius:10px;
-    width: 40%;
-    position: relative;
-    left: 400px;
-    bottom: 300px;   
+#texto{
+	font-size: 20px;
+  font-family: 'Slabo 27px', serif; 
+	color:rgb(59, 16, 16);
+	border-radius: 15px;
+       
 }
 
 #caja{
-    font-size: 100%;
-    font-family: 'Slabo 27px', serif;
-    position: relative;
-    left: 180px;
-    border-radius: 10px;
-    top: 25px;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;  
+	border-radius: 10px;
+   
 }
 
-#message1{
-    font-size: 250%;
-    text-align: center;
-    position: relative;
+#mensaje{
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif; 
+	color:rgb(151, 43, 43); 
+	padding-top: 20px; 
 }
 
-#caja2{
-    font-size: 100%;
+#inputText{   
+	text-align: center;
     font-family: 'Slabo 27px', serif;
     min-width: 400px;
     max-width: 400px;
     min-height: 100px;
     max-height: 100px;
-    position: relative;
-    bottom: 20px;
-    left: 70px;
     border-radius: 10px;
 }
 
 .buttons{
     font-family: 'Slabo 27px', serif;
-    border-radius: 10px;
-    font-size: 120%;
-    margin-right: 10px;
-    position:relative;
-    bottom: 10px;
-    left: 170px;
+		border-radius: 10px;
+		background-color: white;
 }
 
-#RespuestaCodificada{
-    position:relative;
-    left: 300px;
-    text-align: center;
-    font-size: 200%;
-    width: 60%;
-    word-wrap: break-word;
-    bottom: 330px;
+#RespuestaCodificada{ 
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif; 
+	word-wrap: break-word;
+	color: rgb(151, 43, 43);  
+	padding-top: 20px;  
 }
 
 #RespuestaDecodificada{
-    position: relative;
-    left: 300px;
-    text-align: center;
-    font-size: 200%; 
-    width: 60%;
-    word-wrap: break-word;
-    bottom: 350px;    
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif; 
+	word-wrap: break-word;  
+	color: rgb(151, 43, 43);      
 }
 
-.fa-facebook{
-    font-size: 50px;
-    color: blue;    
-}
-
-.fa-whatsapp{
-    font-size: 50px;
-    color: green;
-    margin-left: 10px;
-}
-
-#icono{
-    color: black;
-    font-size: 4rem;
-    position: relative;
-    bottom: 120px;
-    left: 50px;
-}
-
-#icono1{
-    color: black;
-    font-size: 4rem;
-    position: absolute;
-    bottom: 530px;
-    left: 1200px;
-}
-
+  

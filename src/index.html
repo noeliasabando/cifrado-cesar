@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cifrado César</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
-  <div>
-    <h1 id="welcome1">¡Bienvenid@s a la página de mensajes secretos!</h1>
-  </div>
-
-  <div id="icono">
-      <i class="fas fa-user-secret"></i>
-  </div>
-  
-  <div id="icono1">
-      <i class="fas fa-user-secret"></i>
-  </div>
-    
-  <div id="CifradoCesar">
-    <p>La idea de esta página, es que puedas enviar mensajes secretos, mediante la utilización 
-      del conocido método <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">Cifrado César</a>, en el cual, las letras de un texto original, son
-        reemplazadas por otras que se encuentran un número de posiciones más adelante, 
-        según el número que tú elijas. 
-    </p>
-  </div>
-
-  <div id="Formulario">  
-    <div>
-        <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
-    </div>  
-
-    <div>
-      <p id="message1">Escribe tu mensaje aquí</p>
-      <textarea id="caja2" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+<body id="imgFondo">
+  <section>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <h1 id="titulo">¡Bienvenid@s a la página de mensajes secretos!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-3 text-center" id="texto">
+        <p>La idea de esta página, es que puedas enviar mensajes secretos, mediante la utilización del conocido método
+          <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">Cifrado César</a>, en el cual, las letras de un texto original, son reemplazadas por otras que se encuentran un
+          número de posiciones más adelante, según el número que tú elijas.
+        </p>
+      </div>
     </div>
 
-    <div>
-        <button class="buttons" onclick="encodeButton()" name= "boton">Codificar</button>
-        <button class="buttons" onclick="decodeButton()" name= "boton">Decodificar</button>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <div>
+          <input id="caja" type="text" name="valorN" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
+        </div>
+      </div>
     </div>
-  </div>  
 
-<div>
-  <p id="RespuestaCodificada"></p>
-</div>
 
-<div>
-  <p id="RespuestaDecodificada"></p>
-</div>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <div>
+          <p id="mensaje">Escribe tu mensaje aquí</p>
+          <textarea id="inputText" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <button class="buttons" onclick="encodeButton()" name="boton">Codificar</button>
+        <button class="buttons" onclick="decodeButton()" name="boton">Decodificar</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <p id="RespuestaCodificada"></p>
+        <p id="RespuestaDecodificada"></p>
+      </div>
+    </div>
+  </section>
 
-<i class="fab fa-facebook"></i>
-<i class="fab fa-whatsapp"></i>
 
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 
